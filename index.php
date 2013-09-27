@@ -10,6 +10,8 @@
     $entrenadores = $db->consultar($consulta);
     
     while($entrenador = pg_fetch_object($entrenadores)){
-        echo $entrenador->nombre_entrenador.'<br>';
+        echo $entrenador->nombre_entrenador.' '.
+             $entrenador->apellidos_entrenador.' '.
+             $entrenador->email_entrenador.'<br>';
     }
 ?>
