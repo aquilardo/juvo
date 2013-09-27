@@ -4,5 +4,6 @@
 		<li>Problemas</li>
 		<li>Estadisticas</li>
                 <li>Login</li>
+                <li>descargas</li>
 	</ul>
 </nav>
