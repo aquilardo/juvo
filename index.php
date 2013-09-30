@@ -1,7 +1,9 @@
 <?php
+/*
     require './model/conexion.php';
     
     $db = new conexion();
+    
     
     $consulta = "
         SELECT *
@@ -14,4 +16,8 @@
              $entrenador->apellidos_entrenador.' '.
              $entrenador->email_entrenador.'<br>';
     }
+    
+    */
+
+
 ?>
